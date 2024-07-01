@@ -6,8 +6,8 @@
             <div class="banner_content text-center">
                 <h2>Services</h2>
                 <div class="page_link">
-                    <a href="index.html">Home</a>
-                    <a href="services.html">Services</a>
+                    <a href="{{route('home')}}">Home</a>
+                    <a href="{{route('services')}}">Services</a>
                 </div>
             </div>
         </div>

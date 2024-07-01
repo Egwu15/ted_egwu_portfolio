@@ -39,16 +39,8 @@ new class extends Component {
                         <li class="nav-item {{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('services') }}">Services</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio
-                                        Details</a></li>
-                            </ul>
-                        </li>
+                        {{-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> --}}
+
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">Blog</a>

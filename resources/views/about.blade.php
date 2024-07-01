@@ -6,8 +6,8 @@
                 <div class="banner_content text-center">
                     <h2>About Us</h2>
                     <div class="page_link">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
+                        <a href="{{ route('home') }}">Home</a>
+                        <a href="{{ route('about') }}">About</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,8 @@
                         <h2>client say about me</h2>
                         <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
                             <br>
-                            beginning signs open god you're gathering ithe</p>
+                            beginning signs open god you're gathering ithe
+                        </p>
                     </div>
                 </div>
             </div>
