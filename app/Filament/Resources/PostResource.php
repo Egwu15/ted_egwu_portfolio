@@ -10,7 +10,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Forms\Components\Select;
-use App\models;
+use App\Models;
 use Filament\Forms\Components\FileUpload;
 
 
@@ -42,7 +42,7 @@ class PostResource extends Resource
                     ->options(Models\User::all()->pluck('name', 'id'))
                     ->searchable(),
                 Select::make('tags')
-                    ->options(Models\Tag::all()->pluck('name', 'id')) // Assuming Tag model exists and has name and id columns
+                    ->options(Models\Tag::all()->pluck('name', 'id'))
                     ->required()
                     ->multiple()
                     ->searchable(),
