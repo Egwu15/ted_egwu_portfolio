@@ -34,7 +34,9 @@ class Blog extends Component
     public function render()
     {
 
-        $posts = Post::with(['category', 'user'])->paginate($this->postsPerPage);
+        $posts = Post::with(['category', 'user'])
+            ->orderBy('published_at', 'desc')
+            ->paginate($this->postsPerPage);
         return view('livewire.pages.blog.blog', [
             'posts' => $posts,
         ]);

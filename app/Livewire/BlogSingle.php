@@ -9,7 +9,6 @@ use App\Models\Category;
 class BlogSingle extends Component
 {
 
-    private $postSlug;
     private $maxPopularPosts = 4;
     private $maxCategories = 3;
     public $categories;
@@ -23,7 +22,7 @@ class BlogSingle extends Component
 
     public function mount($id)
     {
-        $this->postSlug = $id;
+
         $this->post =  Post::where("slug", $id)->with(['user', 'category'])->first();
 
         $this->popularPosts = Post::where('is_published', '=', '1')
