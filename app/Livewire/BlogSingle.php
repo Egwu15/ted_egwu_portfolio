@@ -32,7 +32,7 @@ class BlogSingle extends Component
             ->get();
 
 
-        if ($this->post->count() == 0) {
+        if ($this->post == null) {
             abort(404);
         }
         $this->categories = Category::withCount(['posts as posts_count'])
