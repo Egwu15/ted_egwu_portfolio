@@ -15,6 +15,8 @@ class BlogSingle extends Component
     public $categories;
     public $post;
     public $popularPosts;
+    public $nextPost;
+    public $prevPost;
 
 
 
@@ -23,7 +25,14 @@ class BlogSingle extends Component
     {
         $this->postSlug = $id;
         $this->post =  Post::where("slug", $id)->with(['user', 'category'])->first();
-        $this->popularPosts = Post::orderBy('views', 'desc')->limit($this->maxPopularPosts)->get();
+
+        $this->popularPosts = Post::where('is_published', '=', '1')
+            ->whereDate('published_at', '<', now())
+            ->orderBy('views', 'desc')
+            ->limit($this->maxPopularPosts)
+            ->get();
+
+
         if ($this->post->count() == 0) {
             abort(404);
         }
@@ -32,8 +41,24 @@ class BlogSingle extends Component
             ->limit($this->maxCategories)
             ->get();
 
-       
+
+        $this->getNextAndPreviousPost();
     }
+
+    private function getNextAndPreviousPost()
+    {
+        $this->nextPost = Post::where('id', '>', $this->post->id)
+            ->where('is_published', '=', '1')
+            ->whereDate('published_at', '<', now())
+            ->first();
+
+        $this->prevPost = Post::where('id', '<', $this->post->id)
+            ->where('is_published', '=', '1')
+            ->whereDate('published_at', '<', now())
+            ->first();
+    }
+
+
 
     public function render()
     {

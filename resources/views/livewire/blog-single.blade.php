@@ -64,21 +64,27 @@
                                     <div class="arrow">
                                         <a href="#"><span class="text-white lnr lnr-arrow-left"></span></a>
                                     </div>
-                                    <div class="detials">
-                                        <p>Prev Post</p>
-                                        <a href="#">
-                                            <h4>Space The Final Frontier</h4>
-                                        </a>
-                                    </div>
+                                    @if ($prevPost != null)
+                                        <div class="detials">
+                                            <p>Prev Post</p>
+                                            <a href="{{ route('single-post', $prevPost->slug) }}">
+                                                <h4>{{ $prevPost->title }}</h4>
+                                            </a>
+                                        </div>
+                                    @endif
+
                                 </div>
                                 <div
                                     class="flex-row col-lg-6 col-md-6 col-12 nav-right d-flex justify-content-end align-items-center">
-                                    <div class="detials">
-                                        <p>Next Post</p>
-                                        <a href="#">
-                                            <h4>Telescopes 101</h4>
-                                        </a>
-                                    </div>
+                                    @if ($nextPost)
+                                        <div class="detials">
+                                            <p>Next Post</p>
+                                            <a href="{{ route('single-post', $nextPost->slug) }}">
+                                                <h4>{{ $nextPost->title }}</h4>
+                                            </a>
+                                        </div>
+                                    @endif
+
                                     <div class="arrow">
                                         <a href="#"><span class="text-white lnr lnr-arrow-right"></span></a>
                                     </div>
