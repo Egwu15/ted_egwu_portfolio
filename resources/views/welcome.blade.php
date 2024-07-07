@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="main_title text-left">
+                    <div class="text-left main_title">
                         <h2>let’s <br>
                             Introduce about <br>
                             myself</h2>
@@ -64,63 +64,63 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo1.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo2.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo3.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo4.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo5.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo6.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo7.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo8.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
+								<div class="text-center d-table-cell">
 									<img src="img/brands/logo9.png" alt="">
 								</div>
 							</div>
@@ -153,7 +153,7 @@
 	<section class="features_area">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
+				<div class="text-center col-lg-8">
 					<div class="main_title">
 						<h2>service offers </h2>
 						<p>
@@ -202,7 +202,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="main_title text-left">
+					<div class="text-left main_title">
 						<h2>quality work <br>
 							Recently done project </h2>
 					</div>
@@ -383,7 +383,7 @@
 	<div class="testimonial_area section_gap_bottom">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
+				<div class="text-center col-lg-8">
 					<div class="main_title">
 						<h2>client say about me</h2>
 						<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
@@ -482,13 +482,13 @@
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
-					<div class="subscription_box text-center">
-						<h2 class="text-uppercase text-white">get update from anywhere</h2>
+					<div class="text-center subscription_box">
+						<h2 class="text-white text-uppercase">get update from anywhere</h2>
 						<p class="text-white">
 							Bearing Void gathering light light his eavening unto dont afraid. 
 						</p>
 						<div class="subcribe-form" id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
+							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="relative subscription">
 								<input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
 								<div style="position: absolute; left: -5000px;">
 									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">

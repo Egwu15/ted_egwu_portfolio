@@ -1,0 +1,17 @@
+blog requirements
+
+title
+slug
+content
+isActive
+category
+imageUrl
+views
+
+category requirements
+title
+description -> optional
+imageUrl 
+
+tags
+-name
