@@ -56,4 +56,17 @@ class Post extends Model
     {
         return Str::words($this->content, 35);
     }
+
+    public function getImageLink()
+    {
+        if ($this->imageUrl) {
+
+            if (strpos($this->imageUrl, 'http') !== false) {
+
+                return $this->imageUrl;
+            } else {
+                return asset("storage/{$this->imageUrl}");
+            }
+        }
+    }
 }

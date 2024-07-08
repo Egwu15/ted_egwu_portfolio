@@ -27,7 +27,7 @@
                         <div class="single-post row">
                             <div class="col-lg-12">
                                 <div class="feature-img">
-                                    <img class="img-fluid" src="/{{ $post->imageUrl }}" alt="{{ $post->title }}">
+                                    <img class="img-fluid" src="{{ $post->getImageLink() }}" alt="{{ $post->title }}">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
@@ -121,7 +121,7 @@
 
                                 @foreach ($popularPosts as $post)
                                     <div class="media post_item">
-                                        <img src="/{{ $post->imageUrl }}" alt="{{ $post->title }}"
+                                        <img src="{{ $post->getImageLink() }}" alt="{{ $post->title }}"
                                             style="width: 100px;">
                                         <div class="media-body">
                                             <a href="{{ route('single-post', $post->slug) }}">

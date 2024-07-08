@@ -25,7 +25,7 @@
                     @foreach ($categories as $category)
                         <div class="col-lg-4">
                             <div class="categories_post">
-                                <img src="{{ $category->imageUrl }}" alt="post">
+                                <img src="{{ asset('storage/' . $category->imageUrl) }}" alt="post">
                                 <div class="categories_details">
                                     <div class="categories_text">
                                         <a href="#">
