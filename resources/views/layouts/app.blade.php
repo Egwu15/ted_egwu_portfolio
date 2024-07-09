@@ -70,20 +70,19 @@
         </div>
     </footer>
 
-    <script defer src="{{ asset('build/assets/js/jquery-3.2.1.min.js') }}"></script>
+
+
+    <script  src="{{ asset('build/assets/js/jquery-3.2.1.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/popper.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/bootstrap.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/stellar.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script defer src="{{ asset('build/assets/vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('build/assets/vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/vendors/isotope/isotope-min.js') }}"></script>
     <script defer src="{{ asset('build/assets/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
-    <script defersrc="{{ asset('build/assets/js/jquery.ajaxchimp.min.js') }}"></script>
-    <script defersrc="{{ asset('build/assets/js/mail-script.js') }}"></script>
-    <!--gmaps Js remains unchanged as it is an external link-->
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script defersrc="{{ asset('build/assets/js/gmaps.min.js') }}"></script>
+    
+
     <script defer src="{{ asset('build/assets/js/theme.js') }}"></script>
 </body>
 
