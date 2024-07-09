@@ -54,6 +54,7 @@ class BlogSingle extends Component
         $this->prevPost = Post::where('id', '<', $this->post->id)
             ->where('is_published', '=', '1')
             ->whereDate('published_at', '<', now())
+            ->latest()
             ->first();
     }
 

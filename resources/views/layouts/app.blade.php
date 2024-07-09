@@ -8,9 +8,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Fonts -->
-    {{-- <link rel="preconnect" href="https://fonts.bunny.net"> --}}
-    {{-- <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> --}}
 
 
     <link rel="stylesheet" href="{{ asset('build/assets/css/bootstrap.css') }}">
@@ -21,9 +18,7 @@
     <link rel="stylesheet" href="{{ asset('build/assets/vendors/nice-select/css/nice-select.css') }}">
     <!-- main css -->
     <link rel="stylesheet" href="{{ asset('build/assets/css/style.css') }}">
-    <!-- Scripts -->
-    {{-- @vite(['resources/css/style.css']) --}}
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+
 
 </head>
 
@@ -72,7 +67,7 @@
 
 
 
-    <script  src="{{ asset('build/assets/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('build/assets/js/jquery-3.2.1.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/popper.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/bootstrap.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/js/stellar.js') }}"></script>
@@ -81,7 +76,7 @@
     <script defer src="{{ asset('build/assets/vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
     <script defer src="{{ asset('build/assets/vendors/isotope/isotope-min.js') }}"></script>
     <script defer src="{{ asset('build/assets/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
-    
+
 
     <script defer src="{{ asset('build/assets/js/theme.js') }}"></script>
 </body>

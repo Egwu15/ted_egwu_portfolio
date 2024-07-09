@@ -3,7 +3,7 @@
     <section class="banner_area">
         <div class="banner_inner d-flex align-items-center">
             <div class="container">
-                <div class="banner_content text-center">
+                <div class="text-center banner_content">
                     <h2>About Us</h2>
                     <div class="page_link">
                         <a href="{{ route('home') }}">Home</a>
@@ -26,18 +26,16 @@
                 </div>
 
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="main_title text-left">
+                    <div class="text-left main_title">
                         <h2>let’s <br>
                             Introduce about <br>
                             myself</h2>
                         <p>
-                            Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven
-                            midst their. Beast creepeth. Fish days.
-                        </p>
-                        <p>
-                            Is give may shall likeness made yielding spirit a itself together created after sea
-                            is in beast beginning signs open god you're gathering whose gathered cattle let.
-                            Creature whales fruit unto meat the life beginning all in under give two.
+                            I am a software developer with over 9 years of coding experience, specializing in mobile
+                            development with Flutter, web development with React, and backend development using Node.js
+                            and Laravel. Passionate about learning and solving digital challenges, I see programming as
+                            a key tool for problem-solving. Beyond coding, I enjoy poetry, which adds a creative balance
+                            to my life.
                         </p>
                         <a class="primary_btn" href="#"><span>Download CV</span></a>
                     </div>
@@ -55,63 +53,63 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo1.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo2.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo3.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo4.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo5.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo6.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo7.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo8.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
-                                <div class="d-table-cell text-center">
+                                <div class="text-center d-table-cell">
                                     <img src="img/brands/logo9.png" alt="">
                                 </div>
                             </div>
@@ -121,7 +119,7 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6">
                     <div class="client-info">
                         <div class="d-flex mb-50">
-                            <span class="lage">10</span>
+                            <span class="lage">9</span>
                             <span class="smll">Years Experience Working</span>
                         </div>
                         <div class="call-now d-flex">
@@ -129,8 +127,8 @@
                                 <span class="fa fa-phone"></span>
                             </div>
                             <div class="ml-15">
-                                <p>call us now</p>
-                                <h3>(+1)-800-555-6789</h3>
+                                <p>call now</p>
+                                <h3>07069131363</h3>
                             </div>
                         </div>
                     </div>
@@ -144,12 +142,11 @@
     <div class="testimonial_area section_gap_bottom">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
+                <div class="text-center col-lg-8">
                     <div class="main_title">
                         <h2>client say about me</h2>
-                        <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
-                            <br>
-                            beginning signs open god you're gathering ithe
+                        <p>Insights from our valued clients:<br> Personal stories and experiences that illustrate the
+                            meaningful impact of our services.
                         </p>
                     </div>
                 </div>
@@ -251,15 +248,15 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-12">
-                    <div class="subscription_box text-center">
-                        <h2 class="text-uppercase text-white">get update from anywhere</h2>
+                    <div class="text-center subscription_box">
+                        <h2 class="text-white text-uppercase">get update from anywhere</h2>
                         <p class="text-white">
                             Bearing Void gathering light light his eavening unto dont afraid.
                         </p>
                         <div class="subcribe-form" id="mc_embed_signup">
                             <form target="_blank" novalidate="true"
                                 action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                method="get" class="subscription relative">
+                                method="get" class="relative subscription">
                                 <input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''"
                                     onblur="this.placeholder = 'Email address'" required="" type="email">
                                 <div style="position: absolute; left: -5000px;">

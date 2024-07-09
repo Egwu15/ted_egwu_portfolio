@@ -2,7 +2,7 @@
     <section class="banner_area">
         <div class="banner_inner d-flex align-items-center">
             <div class="container">
-                <div class="banner_content text-center">
+                <div class="text-center banner_content">
                     <h2>Contact Us</h2>
                     <div class="page_link">
                         <a href="{{ route('home') }}">Home</a>
@@ -59,7 +59,7 @@
                                 <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12 text-right">
+                        <div class="mb-5 text-right col-md-12">
                             <button type="submit" value="submit" class="primary_btn">
                                 <span>Send Message</span>
                             </button>
@@ -67,10 +67,7 @@
                     </form>
                 </div>
             </div>
-            <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13"
-                data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083"
-                data-mlon="-74.1522848">
-            </div>
+            
         </div>
     </section>
     <!--================Contact Area =================-->

@@ -9,7 +9,7 @@
                             <h1 class="text-uppercase">I am Ted Egwu</h1>
                             <h5 class="text-uppercase">senior software developer</h5>
                             <div class="d-flex align-items-center">
-                                <a class="primary_btn" href="#"><span>Hire Me</span></a>
+                                <a class="primary_btn" href="{{ route('contact') }}"><span>Hire Me</span></a>
                                 <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                             myself</h2>
 
                         <p>
-                            I am a software developer with over 10 years of coding experience, specializing in mobile
+                            I am a software developer with over 9 years of coding experience, specializing in mobile
                             development with Flutter, web development with React, and backend development using Node.js
                             and Laravel. Passionate about learning and solving digital challenges, I see programming as
                             a key tool for problem-solving. Beyond coding, I enjoy poetry, which adds a creative balance
@@ -129,7 +129,7 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6">
                     <div class="client-info">
                         <div class="d-flex mb-50">
-                            <span class="lage">10</span>
+                            <span class="lage">9</span>
                             <span class="smll">Years Experience Working</span>
                         </div>
                         <div class="call-now d-flex">
@@ -137,8 +137,8 @@
                                 <span class="fa fa-phone"></span>
                             </div>
                             <div class="ml-15">
-                                <p>call us now</p>
-                                <h3>(+1)-800-555-6789</h3>
+                                <p>call now</p>
+                                <h3>07069131363</h3>
                             </div>
                         </div>
                     </div>
@@ -156,8 +156,7 @@
                     <div class="main_title">
                         <h2>service offers </h2>
                         <p>
-                            Is give may shall likeness made yielding spirit a itself togeth created
-                            after sea <br> is in beast beginning signs open god you're gathering ithe
+                            Maximizing Business Efficiency Through Exceptional Development Practices
                         </p>
                     </div>
                 </div>
@@ -166,29 +165,35 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
                         <img src="img/services/s1.png" alt="">
-                        <h4>Wp developing</h4>
-                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                        <h4>Web </h4>
+                        <p>Specializing in responsive website design and development, tailored to enhance your online
+                            presence and drive conversions.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
                         <img src="img/services/s2.png" alt="">
-                        <h4>UI/ux design</h4>
-                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                        <h4>Mobile </h4>
+                        <p>Developing impactful mobile apps for iOS and Android, ensuring exceptional user experiences
+                            and business success.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
                         <img src="img/services/s3.png" alt="">
-                        <h4>Web design</h4>
-                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                        <h4>Backend </h4>
+                        <p>Building scalable, secure server-side solutions, including database management, to optimize
+                            applications.</p>
+
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
                         <img src="img/services/s4.png" alt="">
-                        <h4>seo optimize</h4>
-                        <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                        <h4>Team leadership</h4>
+                        <p>Empowering leadership through tailored coaching and mentorship programs, designed to
+                            inspire and guide teams to success.</p>
+
                     </div>
                 </div>
             </div>
@@ -205,9 +210,10 @@
                 <div class="text-center col-lg-8">
                     <div class="main_title">
                         <h2>client say about me</h2>
-                        <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast
-                            <br>
-                            beginning signs open god you're gathering ithe</p>
+                        <p>Insights from our valued clients:
+                            <br> Personal stories and experiences that illustrate the
+                            meaningful impact of our services.
+                        </p>
                     </div>
                 </div>
             </div>
