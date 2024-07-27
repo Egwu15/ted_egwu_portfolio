@@ -1,6 +1,6 @@
 <div>
 
-    <body class="blog_version">
+    <div class="blog_version">
 
         <!--================ Start Banner Area =================-->
         <section class="banner_area">
@@ -58,8 +58,7 @@
                                 <div
                                     class="flex-row col-lg-6 col-md-6 col-12 nav-left d-flex justify-content-start align-items-center">
                                     <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/prev.jpg"
-                                                alt=""></a>
+                                        <a href="#"><img class="img-fluid"></a>
                                     </div>
                                     <div class="arrow">
                                         <a href="#"><span class="text-white lnr lnr-arrow-left"></span></a>
@@ -89,8 +88,7 @@
                                         <a href="#"><span class="text-white lnr lnr-arrow-right"></span></a>
                                     </div>
                                     <div class="thumb">
-                                        <a href="#"><img class="img-fluid" src="img/blog/next.jpg"
-                                                alt=""></a>
+                                        <a href="#"><img class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -100,13 +98,7 @@
                     <div class="col-lg-4">
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default" type="button"><i
-                                                class="lnr lnr-magnifier"></i></button>
-                                    </span>
-                                </div><!-- /input-group -->
+                                <livewire:BlogSearch />
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget author_widget">
@@ -135,7 +127,6 @@
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget ads_widget">
-                                <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget post_category_widget">
@@ -183,5 +174,5 @@
         <!--================Blog Area =================-->
 
 
-    </body>
+    </div>
 </div>

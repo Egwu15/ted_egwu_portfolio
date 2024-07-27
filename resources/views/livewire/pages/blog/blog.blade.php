@@ -1,6 +1,6 @@
 <div>
 
-    <body class="blog_version">
+    <div class="blog_version">
 
         <!--================ Start Banner Area =================-->
         <section class="banner_area">
@@ -25,7 +25,7 @@
                     @foreach ($categories as $category)
                         <div class="col-lg-4">
                             <div class="categories_post">
-                                <img src="{{ asset('storage/' . $category->imageUrl) }}" alt="post">
+                                <img src="{{ asset('storage/' . $category->imageUrl) }}" alt="post" />
                                 <div class="categories_details">
                                     <div class="categories_text">
                                         <a href="#">
@@ -94,13 +94,7 @@
                     <div class="col-lg-4">
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default" type="button"><i
-                                                class="lnr lnr-magnifier"></i></button>
-                                    </span>
-                                </div><!-- /input-group -->
+                                <livewire:BlogSearch />
                                 <div class="br"></div>
                             </aside>
 
@@ -176,5 +170,5 @@
         <!--================Blog Area =================-->
 
 
-    </body>
+    </div>
 </div>
