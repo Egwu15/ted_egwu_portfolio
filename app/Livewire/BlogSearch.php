@@ -24,11 +24,6 @@ class BlogSearch extends Component
             ->where('title', 'like',  "%{$search}%")
             ->limit(5)
             ->get();
-
-        if ($this->posts->count() > 0) {
-            // Log the posts instead of using dd
-            Log::info($this->posts);
-        }
     }
 
     public function render()

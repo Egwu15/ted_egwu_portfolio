@@ -10,6 +10,7 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::view('privacy', 'privacy')->name('privacy');
 Route::view('about', 'about')->name('about');
 Route::view('contact', 'contact')->name('contact');
 Route::view('services', 'services')->name('services');
