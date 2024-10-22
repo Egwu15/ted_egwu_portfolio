@@ -1,6 +1,6 @@
 <div style="padding-left: 60; padding-right: 80; padding-top: 60">
     <h1>Privacy Policy for Nigerian Law App</h1>
-    <p><em>Effective Date: [Insert Date]</em></p>
+    <p><em>Effective Date: 20th October 2024</em></p>
 
     <p>At <strong>Nigerian Law App</strong>, your privacy is our priority. We value your trust and are committed to
         maintaining your privacy as you use our application. This Privacy Policy outlines how we handle your information
